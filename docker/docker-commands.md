@@ -30,6 +30,7 @@
 - `docker run -it <image_name>` -> Run container in interactive mode
 - `docker run -it --name <container_name> <image_name>` -> Run container with specific name
 - `docker run -it -d --name <container_name> -p <host_port>:<container_port> <image_name>` -> Run container in detached mode with specific name and port
+- `docker run -v $(<host_file_path>):<container_file_path> <image_name>` -> Run container with volume
 - `docker exec -it <container_name> /bin/bash` -> Run command in container
 
 ### Container Start/Stop
