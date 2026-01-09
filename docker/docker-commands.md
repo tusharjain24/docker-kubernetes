@@ -41,3 +41,4 @@
 - `docker restart <container_id>` -> Restart specific container
 - `docker restart <container_name>` -> Restart specific container
 - `docker stop $(docker ps -q)` -> Stop all containers
+- `docker kill <container_id>/<container_name>` -> Kill specific container
