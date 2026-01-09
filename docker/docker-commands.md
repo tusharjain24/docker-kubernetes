@@ -8,6 +8,11 @@
 - `docker rmi <image_id>` -> Remove specific image
 - `docker rmi <image_name>` -> Remove specific image
 
+### Image Management
+- `docker image prune` -> Remove all unused images
+- `docker image prune -a` -> Remove all images
+- `docker build -t <image_name> <path_to_dockerfile>` -> Build image
+
 ## Docker Containers
 
 - `docker ps` -> List all containers
