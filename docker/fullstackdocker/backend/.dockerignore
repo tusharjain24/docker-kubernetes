@@ -4,5 +4,11 @@ node_modules
 # debug logs
 npm-debug.log
 
+# docker files
+.dockerignore
+
+# package-lock.json
+package-lock.json
+
 # Environment variables
 .env
